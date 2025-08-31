@@ -1,0 +1,10 @@
+{
+    "ai": {
+        "behavior": {
+            "askQuestions": "never",
+            "autoFix": "always",
+            "implementFeatures": "complete",
+            "codeQuality": "production"
+        }
+    }
+}
