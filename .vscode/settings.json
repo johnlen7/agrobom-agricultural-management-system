@@ -1,0 +1,57 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit",
+        "source.sortImports": "explicit",
+        "source.removeUnusedImports": "explicit",
+        "source.addMissingImports": "explicit"
+    },
+    "github.copilot.enable": {
+        "*": true
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.editor.inlineSuggestions": true,
+    "github.copilot.chat.edits.enabled": true,
+    "github.copilot.chat.followUps": "always",
+    "github.copilot.advanced": {
+        "authProvider": "github",
+        "debug.overrideEngine": "gpt-4",
+        "debug.testOverrideProxyUrl": "",
+        "debug.overrideProxyUrl": ""
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.suggestSelection": "first",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.tasks.runTask"
+    ],
+    "task.autoDetect": "on",
+    "task.quickOpen.detail": true,
+    "task.saveBeforeRun": "always",
+    "testing.automaticallyOpenPeekView": "failureInVisibleDocument",
+    "testing.followRunningTest": true,
+    "testing.defaultGutterClickAction": "run",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.autoStash": true,
+    "extensions.autoUpdate": true,
+    "extensions.autoCheckUpdates": true,
+    "liveServer.settings.port": 5501
+}
